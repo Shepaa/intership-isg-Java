@@ -1,4 +1,6 @@
-public class Laptop {
+package ElectronicsStore.product;
+
+public class Laptop implements ElectronicProduct{
     private String name;
     private double price;
     private String additionalFeatures;

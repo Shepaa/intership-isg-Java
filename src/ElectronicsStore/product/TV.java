@@ -1,4 +1,6 @@
-public class TV {
+package ElectronicsStore.product;
+
+public class TV implements ElectronicProduct {
     private String name;
     private double price;
     private String additionalFeatures;

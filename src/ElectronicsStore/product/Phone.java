@@ -1,7 +1,9 @@
-public class Phone {
-    private String name;
-    private double price;
-    private String additionalFeatures;
+package ElectronicsStore.product;
+
+public class Phone implements ElectronicProduct {
+    private final String name;
+    private final double price;
+    private final String additionalFeatures;
 
     public Phone(String name, double price, String additionalFeatures) {
         this.name = name;
@@ -21,15 +23,4 @@ public class Phone {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public void setAdditionalFeatures(String additionalFeatures) {
-        this.additionalFeatures = additionalFeatures;
-    }
 }
