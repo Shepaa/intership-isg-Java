@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
 public @interface DataValidation {
-    DataType type();
+//    DataType type();
     int minLength() default 0;
     int maxLength() default Integer.MAX_VALUE;
     double minValue() default Double.MIN_VALUE;
